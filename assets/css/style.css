@@ -1,0 +1,135 @@
+:root {
+  --main-bgc-color: #b0e0e6;
+  --text-header-color: #003366;
+  --accents-color: #ff6f61;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--main-bgc-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 25px 40px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--accents-color);
+}
+
+.logo .name {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--text-header-color);
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-header-color);
+  font-size: 16px;
+  border-right: 1px solid var(--text-header-color);
+  padding: 0 10px;
+}
+
+nav ul li:last-of-type a {
+  border: none;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.intro-text h1 {
+  font-size: 80px;
+  font-weight: 600;
+  color: var(--text-header-color);
+  padding: 5px 0;
+  letter-spacing: 5px;
+}
+.intro-text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.intro-text p {
+  font-size: 16px;
+  max-width: 400px;
+  color: var(--text-main-color);
+}
+
+.separator {
+  height: 1px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: var(--text-header-color);
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 0 25px;
+}
+
+.footer-content .category-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.footer-content .category-content {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.footer-content .category-content .fa-brands {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.footer-content .copyrights {
+  font-size: 14px;
+  font-weight: 300;
+}
