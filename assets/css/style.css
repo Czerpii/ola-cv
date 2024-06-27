@@ -234,7 +234,7 @@ header .logo {
   }
 
   .footer-content .category-content {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .footer-content .category-content .fa-brands {
@@ -242,7 +242,7 @@ header .logo {
   }
 
   .footer-content .copyrights {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
@@ -286,11 +286,5 @@ header .logo {
   }
   .intro-text p {
     font-size: 12px;
-  }
-
-  .footer-content .copyrights {
-    flex-basis: 100%;
-    text-align: center;
-    font-size: 10px;
   }
 }
