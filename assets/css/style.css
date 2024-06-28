@@ -1,7 +1,9 @@
 :root {
-  --main-bgc-color: #b0e0e6;
+  --main-bgc-color: #f0f8ff;
   --text-header-color: #003366;
+  --main-text-color: #2f4f4f;
   --accents-color: #ff6f61;
+  /* #e6e6fa - lawenda */
 }
 
 * {
@@ -106,9 +108,10 @@ header .logo {
   padding-bottom: 5px;
 }
 .intro-text p {
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 300;
   max-width: 400px;
-  color: var(--text-main-color);
+  color: var(--main-text-color);
 }
 
 .separator {
@@ -161,12 +164,6 @@ header .logo {
     justify-content: space-between;
   }
 }
-/* @media (max-width: 1280px) {
-  .intro img {
-    width: 450px;
-    height: 450px;
-  }
-} */
 
 @media (max-width: 1024px) {
   .intro {
@@ -177,7 +174,7 @@ header .logo {
     /* width: 400px;
     height: 400px; */
     margin-right: 0;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 }
 @media (max-width: 768px) {
